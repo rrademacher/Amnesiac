@@ -76,7 +76,8 @@ Run this loop per chapter until complete:
 1. `playbook_chapter_outline.md`
 2. `playbook_scene_outline.md` (for each scene)
 3. `playbook_drafting.md`
-4. `playbook_editor_intake.md` (when feedback arrives)
-5. `playbook_retcon.md` (when continuity/canon issues appear)
+4. `playbooks/playbook_chapter_lifecycle.md` (run lifecycle gates, then initialize next chapter)
+5. `playbook_editor_intake.md` (when feedback arrives)
+6. `playbook_retcon.md` (when continuity/canon issues appear)
 
-When chapter gates pass, the package is handoff-ready for drafting.
+When chapter gates pass, the package is handoff-ready for drafting and controlled next-chapter startup.
