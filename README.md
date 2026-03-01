@@ -67,6 +67,10 @@ You are done only when:
 
 ## Minimum Loop to Hand Off Drafting
 
+Before chapter work, run a one-time foundation bootstrap if premise/purpose/themes/minimal cast are not yet canonical:
+
+0. `playbook_story_foundation.md`
+
 Run this loop per chapter until complete:
 
 1. `playbook_chapter_outline.md`

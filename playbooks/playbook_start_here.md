@@ -12,8 +12,9 @@ Use this playbook whenever you start a session or lose context. It re-anchors yo
 ### SH-01 — Load control context
 1. Read `todo/todo_master.md`.
 2. Read `canon/story_bible.md`.
-3. Read `editor/notes_inbox.md`.
-4. Read `build/projections/continuity_report.md`.
+3. Read `canon/entities/README.md`.
+4. Read `editor/notes_inbox.md`.
+5. Read `build/projections/continuity_report.md`.
 
 ### SH-02 — Select the next executable task
 1. Find tasks marked `NEXT`.
@@ -24,11 +25,14 @@ Use this playbook whenever you start a session or lose context. It re-anchors yo
 ### SH-03 — If no executable task exists (Daily Triage)
 1. Create a new triage task in `todo/todo_master.md` as `NEXT`.
 2. Run these checks in order:
+   - missing story foundation prerequisites (premise, purpose, themes, minimal cast records)
    - unresolved editor notes
    - unresolved continuity conflicts
    - chapters with missing outline
    - chapters with outline but no scene files
-3. Generate at least one executable child task with explicit provenance.
+3. If foundation prerequisites are missing, create a `NEXT` bootstrap task using `playbook_story_foundation.md` step `SF-01` before generating chapter tasks.
+4. Generate at least one executable child task with explicit provenance.
+
 
 ### SH-04 — Execute selected task playbook
 1. Open the task's `origin_playbook` and `origin_step`.

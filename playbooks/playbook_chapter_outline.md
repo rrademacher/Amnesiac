@@ -4,6 +4,7 @@
 Produce or revise a chapter outline that is canon-safe, event-capturable, and ready for scene-level decomposition.
 
 ## Entry conditions
+- Story foundation bootstrap is complete (premise, purpose, themes, and minimal cast are canonical).
 - Target chapter exists under `chapters/ch##/`.
 - `todo/active_task.md` references this chapter.
 - Required context files are readable.

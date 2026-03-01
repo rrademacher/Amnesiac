@@ -11,12 +11,25 @@ Use this file as canonical task queue.
 
 ## Tasks
 
-- id: task_000001
-  title: Initialize chapter 1 outline
+- id: task_000000
+  title: Bootstrap story foundation prerequisites
   status: DONE
   priority: 1
   parent: null
   depends_on: []
+  origin_playbook: playbook_story_foundation.md
+  origin_step: SF-01
+  context_files:
+    - canon/story_bible.md
+    - canon/entities/README.md
+    - build/projections/continuity_report.md
+
+- id: task_000001
+  title: Initialize chapter 1 outline
+  status: DONE
+  priority: 1
+  parent: task_000000
+  depends_on: [task_000000]
   origin_playbook: playbook_start_here.md
   origin_step: SH-03
   context_files:
@@ -50,8 +63,8 @@ Use this file as canonical task queue.
   title: Create canonical entity records for new IDs introduced in ch01 events
   status: NEXT
   priority: 1
-  parent: task_000001
-  depends_on: [task_000001]
+  parent: task_000000
+  depends_on: [task_000000]
   origin_playbook: playbook_chapter_outline.md
   origin_step: CO-05
   context_files:
