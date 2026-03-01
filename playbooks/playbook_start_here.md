@@ -30,8 +30,10 @@ Use this playbook whenever you start a session or lose context. It re-anchors yo
    - unresolved continuity conflicts
    - chapters with missing outline
    - chapters with outline but no scene files
+   - no remaining chapter tasks (route to story completion terminal path)
 3. If foundation prerequisites are missing, create a `NEXT` bootstrap task using `playbook_story_foundation.md` step `SF-01` before generating chapter tasks.
-4. Generate at least one executable child task with explicit provenance.
+4. If no chapter tasks remain, create a `NEXT` terminal completion task using `playbooks/playbook_story_completion.md` step `SC-01`.
+5. Generate at least one executable child task with explicit provenance.
 
 
 ### SH-04 — Execute selected task playbook
