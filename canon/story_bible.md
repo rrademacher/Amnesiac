@@ -31,3 +31,13 @@ Use dark humor to examine how institutions monetize grief, precarity, and identi
 ## Open canon questions
 - What exact event caused Milo's amnesia?
 - Is org_0001 orchestrating the fraud or exploiting a pre-existing forgery?
+
+## Story Completion
+- required resolved plot IDs
+  - plot_0001
+- allowed unresolved questions (if any)
+  - What exact event caused Milo's amnesia? (allowed unresolved if treated as intentional ambiguity)
+- final thematic/payoff criteria
+  - Milo's legal identity conflict with org_0001 reaches a decisive outcome that affirms `theme_0001`.
+  - The ending preserves dark humor while explicitly accounting for human cost to satisfy `theme_0002`.
+  - Institutional efficiency-vs-empathy harm is demonstrated through concrete consequences tied to `theme_0003`.
