@@ -1,8 +1,8 @@
 # Active Task
 
-current_task_id: task_000001
+current_task_id: task_000004
 selected_by: playbook_start_here.md#SH-02
-selected_at: 2026-01-01T00:00:00Z
+selected_at: 2026-03-01T11:30:00Z
 
 ## Immediate next action
-Open `playbooks/playbook_chapter_outline.md` and execute step `CO-01` for chapter `ch01`.
+Open `playbooks/playbook_scene_outline.md` only if new scene tasks are created; otherwise create missing canon entity records for IDs referenced in `chapters/ch01/events/ch01_events.ndjson`.
