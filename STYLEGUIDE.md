@@ -10,12 +10,17 @@
 - Location: `loc_####`
 - Plotline: `plot_####`
 - Item: `item_####`
-- Faction: `fac_####`
+- Organization/Faction: `org_####`
 - Theme: `theme_####`
 - Chapter: `ch##`
 - Scene: `ch##_sc##`
 - Task: `task_######`
 - Decision record: `dec_YYYYMMDD_##`
+
+
+## Canonical organization namespace
+Use `org_####` for all institutional, corporate, civic, political, criminal, and informal collective actors.
+Do not mint `fac_####` IDs in new canon records; when encountered in legacy notes, normalize to `org_####` during canonization.
 
 ## Timestamp convention
 Use ISO-8601 UTC in all logs:

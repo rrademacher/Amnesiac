@@ -25,7 +25,7 @@ Use dark humor to examine how institutions monetize grief, precarity, and identi
 
 ## Launch cast minimums
 - protagonist: char_0001
-- opposing force: char_0002 (individual operator) and org_0001 (institutional force)
+- opposing force: char_0002 (individual operator) and org_0001 (institutional organization/faction force)
 - key launch locations: loc_0001, loc_0002
 
 ## Open canon questions
