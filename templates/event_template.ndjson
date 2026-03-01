@@ -1,0 +1,1 @@
+{"event_id":"evt_ch##_####","timestamp":"YYYY-MM-DDTHH:MM:SSZ","chapter_id":"ch##","scene_id":"ch##_sc##","type":"reveal|conflict|decision|state_change|retcon","summary":"One-line factual event summary.","entities":["char_####","loc_####"],"plots":["plot_####"],"confidence":"high|medium|low","source":"human|ai|editor|system"}
