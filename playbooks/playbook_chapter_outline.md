@@ -12,8 +12,11 @@ Produce or revise a chapter outline that is canon-safe, event-capturable, and re
 
 ### CO-01 — Preflight anchor
 1. Read target chapter outline file (`chapters/ch##/ch##_outline.md`) if present.
-2. Read relevant entities and active plot files.
-3. Read unresolved foreshadowing debts from `todo/`.
+2. Read relevant entities and active plot files:
+   - `canon/story_bible.md`
+   - `canon/entities/` records when IDs already exist
+   - `build/projections/plot_status.md`
+3. Read unresolved foreshadowing debt from `todo/todo_master.md` (tasks tagged in title or context as "foreshadowing"). If none exist, record "none" in working notes.
 4. Write a one-paragraph `Chapter Purpose` statement.
 
 ### CO-02 — Build beat skeleton
@@ -37,7 +40,7 @@ For each beat, specify:
 2. Spawn tasks for:
    - unresolved canon constraints
    - foreshadowing debt introduced
-   - missing entity updates
+   - missing entity updates when new IDs appear in events without a corresponding `canon/entities/*` record
 
 ## Required outputs
 - Chapter outline includes purpose + beats.
